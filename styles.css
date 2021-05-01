@@ -1,0 +1,97 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Lato', sans-serif;
+}
+
+h1, h2{
+    color:peru ;
+}
+
+h1{
+    font-size: 60px;
+    margin-bottom: 15px;
+    padding-left: 250px;
+}
+
+h2{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+p{
+    margin-bottom: 10px;
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+    background-color: rgba(248, 106, 153,0.15);
+    padding: 0 40px;
+}
+
+input, textarea{
+    display: block;
+}
+
+input{
+    margin: 20px;
+    width: 200px;
+    padding: 10px 20px;
+}
+
+textarea{
+    width: 200px;
+    margin-left: 20px;
+    padding: 20px;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.avatar_image{
+    position: fixed;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    float: left;
+}
+
+h4{
+    float: left;
+    margin-top: 40px;
+    margin-left: 150px;
+    font-size: 60px;
+    color: peru;
+}
+
+.info{
+    margin-top: 20px;
+    padding-bottom: 30px;
+    color: peru;
+}
+
+.speech{
+    position: relative;
+    left: 150px;
+    font-size: 30px;
+    color: peru;
+}
+.made{
+    font-size: 20px;
+    color: slategrey;
+    padding-top: 10px;
+    padding-left: 450px;
+}
+.dim{
+    font-size: 30px;
+    color: peru;
+
+}
